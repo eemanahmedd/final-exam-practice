@@ -6,6 +6,6 @@ jobs:
   echo:
     runs-on: ubuntu-latest
     steps:
-      name: "Echo hello world"
-      runs: echo "Hello World :)"
+      - name: "Echo hello world"
+        runs: echo "Hello World :)"
 
