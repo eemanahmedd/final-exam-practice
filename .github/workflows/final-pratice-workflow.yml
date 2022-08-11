@@ -1,0 +1,11 @@
+name: final-practice-worflow
+
+on: push
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      name: "Echo hello world"
+      runs: echo "Hello World :)"
+
